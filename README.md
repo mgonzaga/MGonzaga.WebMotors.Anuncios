@@ -1,5 +1,5 @@
-# WebMotors - Gerenciador de Anuncios
-API Rest para gerenciamento de anuncios da webmotors.
+# WebMotors - Gerenciador de An√∫ncios
+API Rest para gerenciamento de an√∫ncios da webmotors.
 ## Tecnologias utilizadas:
 - ASP .NET Core 3.1 WebAPI
 - Banco de dados SQL Server
@@ -8,21 +8,21 @@ API Rest para gerenciamento de anuncios da webmotors.
 - Entity Framework Core 3.1.3
 - Swagger (Swashbuckle.AspNetCore 5.2.1)
 
-Para esta aplicaÁ„o, utilizei os seguintes padrıes de desenvolvimento:
+Para esta aplica√ß√£o, utilizei os seguintes padr√µes de desenvolvimento:
 ### 1. MVC
-### 2. Invers„o de controle
-Nenhum objeto È inst‚nciado diretamente dentro dos mÈtodos, todos os objetos s„o injetados diretamente no construtor da classe.
-### 3. InjeÁ„o de DependÍncia
-Framework de injeÁ„o de dependÍncia nativo do ASP .NET Core.
+### 2. Invers√£o de controle
+Nenhum objeto √© inst√¢nciado diretamente dentro dos m√©todos, todos os objetos s√£o injetados diretamente no construtor da classe.
+### 3. Inje√ß√£o de Depend√™ncia
+Framework de inje√ß√£o de depend√™ncia nativo do ASP .NET Core.
 ### 4. Testes de Unidade
-Ao Executar o projeto de Tests, ser„o executados 24 Testes de unidades.
-## Guia de instalaÁ„o
+Ao Executar o projeto de Tests, ser√£o executados 24 Testes de unidades.
+## Guia de instala√ß√£o
 1. Fazer o Download do .NET Core 3.1 ([Clique Aqui](https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral "Clique Aqui"))
-2. Fazer a instalaÁ„o no computador.
+2. Fazer a instala√ß√£o no computador.
 3. Abrir o projeto no Visual Studio 2019
-4. Clicar com o Bot„o direito do mouse no projeto WebAPI e selecionar a OpÁ„o "Manage User Secrets". 
-5. Colar o JSON Abaixo dentro da secrets, substituindo [Servidor], [NomeDoBanco], [Usu·rio], [Senha] pelas informaÁıes do Seu banco de dados.
+4. Clicar com o Bot√£o direito do mouse no projeto WebAPI e selecionar a Op√ß√£o "Manage User Secrets". 
+5. Colar o JSON Abaixo dentro da secrets, substituindo [Servidor], [NomeDoBanco], [Usu√°rio], [Senha] pelas informa√ß√µes do Seu banco de dados.
 > {
-	"ConnectionString": "Data Source=[Servidor];Initial Catalog=[NomeDoBanco];Integrated Security=false;User Id=[Usu·rio];password=[Senha]"
+	"ConnectionString": "Data Source=[Servidor];Initial Catalog=[NomeDoBanco];Integrated Security=false;User Id=[Usu√°rio];password=[Senha]"
   }
 6. Executar o projeto.
