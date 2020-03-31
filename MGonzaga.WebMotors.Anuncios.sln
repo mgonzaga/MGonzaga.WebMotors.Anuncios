@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGonzaga.WebMotors.Anuncios.API", "MGonzaga.WebMotors.Anuncios.API\MGonzaga.WebMotors.Anuncios.API.csproj", "{4F7E18D9-C403-4D61-8727-39B6D591471B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MGonzaga.WebMotors.Anuncios.API", "MGonzaga.WebMotors.Anuncios.API\MGonzaga.WebMotors.Anuncios.API.csproj", "{4F7E18D9-C403-4D61-8727-39B6D591471B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGonzaga.WebMotors.Anuncios.Infrastructure", "MGonzaga.WebMotors.Anuncios.Infrastructure\MGonzaga.WebMotors.Anuncios.Infrastructure.csproj", "{6D0D1912-3D0B-40A7-B533-5FC57AEAF7D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MGonzaga.WebMotors.Anuncios.Infrastructure", "MGonzaga.WebMotors.Anuncios.Infrastructure\MGonzaga.WebMotors.Anuncios.Infrastructure.csproj", "{6D0D1912-3D0B-40A7-B533-5FC57AEAF7D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGonzaga.WebMotors.Anuncios.Domain", "MGonzaga.WebMotors.Anuncios.Domain\MGonzaga.WebMotors.Anuncios.Domain.csproj", "{C7A2FB8E-14D6-4187-A30F-4A4A9638BC61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MGonzaga.WebMotors.Anuncios.Domain", "MGonzaga.WebMotors.Anuncios.Domain\MGonzaga.WebMotors.Anuncios.Domain.csproj", "{C7A2FB8E-14D6-4187-A30F-4A4A9638BC61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGonzaga.WebMotors.Anuncios.UnitTests", "MGonzaga.WebMotors.Anuncios.UnitTests\MGonzaga.WebMotors.Anuncios.UnitTests.csproj", "{76AD3FB7-7A4A-46C5-AD5B-07395EBBA0B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MGonzaga.WebMotors.Anuncios.UnitTests", "MGonzaga.WebMotors.Anuncios.UnitTests\MGonzaga.WebMotors.Anuncios.UnitTests.csproj", "{76AD3FB7-7A4A-46C5-AD5B-07395EBBA0B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24AB65A4-0F89-4B61-8943-4AD5F046A24A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
